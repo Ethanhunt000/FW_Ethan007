@@ -1,0 +1,6 @@
+#StoringData
+#Thu Mar 13 20:48:19 IST 2025
+browser=chrome
+password=admin
+url=http\://localhost\:8888/
+username=admin
