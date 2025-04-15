@@ -23,6 +23,7 @@ import org.testng.annotations.BeforeSuite;
   
   
 public class BaseClass {
+	//pulling code from git
 	public WebDriver driver;
 	public static WebDriver sdriver;
 	@BeforeSuite(groups= {"smokeTest","regressionTest","sanity"})
@@ -87,5 +88,6 @@ public class BaseClass {
 	@AfterSuite(groups={"smokeTest","regressionTest","sanity"})
 	public void aftersuite() {
 		System.out.println("close database connection");
+		//pulledd the code
 	}
 }
