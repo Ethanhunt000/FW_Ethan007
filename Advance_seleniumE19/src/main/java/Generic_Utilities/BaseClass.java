@@ -23,11 +23,7 @@ import org.testng.annotations.BeforeSuite;
   
   
 public class BaseClass {
-	//pulling code from git
-	//again pushit
-
 	
-	//i am eng 2
 	public WebDriver driver;
 	public static WebDriver sdriver;
 	@BeforeSuite(groups= {"smokeTest","regressionTest","sanity"})
